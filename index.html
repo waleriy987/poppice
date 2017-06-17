@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="stylesheets/slick.css">
+	<link rel="stylesheet" href="stylesheets/jquery-ui.css">
+	<link rel="stylesheet" href="stylesheets/screen.css">
+</head>
+<body>
+	<div class="wrapper">
+		<section class="top_block">
+			<div class="container_header">
+				<header class="header">
+					<div class="header__logo">
+						<a href="#0">
+							<img src="images/header_logo.png" alt="poppice">
+						</a>
+					</div>
+					<nav class="nav">
+						<ul class="list">
+							<li class="list__item"><a href="#0">ABOUT</a></li>
+							<li class="list__item"><a href="#0">FAQ</a></li>
+							<li class="list__item"><a href="#0">BLOG</a></li>
+							<li class="list__item"><a href="#0">SUPPORT</a></li>
+							<li class="list__item"><a href="#0">MIN BOKNING <span>1</span></a></li>
+						</ul>
+					</nav>
+					<button id="menu_mobile_open" onclick="menu_open()"></button>
+				</header>
+				<div id="menu_mobile">
+					<ul class="drop_list">
+						<li class="drop_list__item"><a href="#0">ABOUT</a></li>
+						<li class="drop_list__item"><a href="#0">FAQ</a></li>
+						<li class="drop_list__item"><a href="#0">BLOG</a></li>
+						<li class="drop_list__item"><a href="#0">SUPPORT</a></li>
+						<li class="drop_list__item"><a href="#0">MIN BOKNING</a></li>
+					</ul>
+					<button id="menu_mobile_close" onclick="menu_close()"></button>
+				</div>
+				<h1>LOREM IPSUM DOLOR</h1>
+				<h4>Find and book conference rooms, workspace and pop-up offices</h4>
+				<div class="top_block_form">
+					<form class="head_form">
+						<div class="head_form__location">
+							<input type="text" placeholder="Location">
+							<div class="form_date">
+								<p><input type="text" id="datepicker" size="30"></p>
+							</div>
+						</div>
+						<div class="head_form__checkbox">
+							<input class="form_btn" type="submit" value="SÖK">
+							<ul class="checkbox_list">
+								<li class="checkbox_list__item">
+									<div class="checkbox_list__box">
+										<label class="label_checkbox">
+										    <input class="checkbox" type="checkbox" name="check">
+										    <span class="checkbox-custom"></span>
+										    <span class="label"></span>
+										</label>
+										<strong>XS</strong> <span>2-4 personer</span>
+									</div>
+								</li>
+								<li class="checkbox_list__item">
+									<div class="checkbox_list__box">
+										<label>
+										    <input class="checkbox" type="checkbox" name="check">
+										    <span class="checkbox-custom"></span>
+										    <span class="label"></span>
+										</label>
+										<strong>S</strong> <span>5-8 personer</span>
+									</div>
+								</li>
+								<li class="checkbox_list__item">
+									<div class="checkbox_list__box">
+										<label>
+										    <input class="checkbox" type="checkbox" name="check">
+										    <span class="checkbox-custom"></span>
+										    <span class="label"></span>
+										</label>
+										<strong>M</strong> <span>9-12 personer</span>
+									</div>
+								</li>
+								<li class="checkbox_list__item">
+									<div class="checkbox_list__box">
+										<label>
+										    <input class="checkbox" type="checkbox" name="check">
+										    <span class="checkbox-custom"></span>
+										    <span class="label"></span>
+										</label>
+										<strong>L</strong> <span>13-20 personer</span>
+									</div>
+								</li>
+								<li class="checkbox_list__item">
+									<div class="checkbox_list__box">
+										<label>
+										    <input class="checkbox" type="checkbox" name="check" checked>
+										    <span class="checkbox-custom"></span>
+										    <span class="label"></span>
+										</label>
+										<strong>Alla</strong>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</form>
+				</div>
+				<p class="link_contact">For bigger quotes <a href="#0">contact us</a></p>
+				<a class="link_works" href="#0">HOW IT WORKS</a>
+			</div>
+		</section>
+		<section class="hotel">
+			<h4>LOREM IPSUM DOLOR SIT AMET</h4>
+			<ul class="hotel_list">
+				<li class="hotel_list__item">
+					<img src="images/hotel_images_01.png">
+					<div class="hotel_list_logo">
+						<a href="#0">
+							<img src="images/hotel_logo_01.png">
+						</a>
+					</div>
+					<h5>Grand Hotel Stockholm</h5>
+					<h6>Södra Blasieholmshamnen 8</h6>
+					<p>Stockholm • Minst 8 m<sup>2</sup></p>
+					<hr class="separator_item_hotel">
+					<h4>250 kr</h4>
+					<p>1 timme</p>
+					<a class="hotel_link" href="#0">LäS MER</a>
+				</li>
+				<li class="hotel_list__item">
+					<img src="images/hotel_images_02.png">
+					<div class="hotel_list_logo">
+						<a href="#0">
+							<img src="images/hotel_logo_02.png">
+						</a>
+					</div>
+					<h5>Grand Hotel Stockholm</h5>
+					<h6>Södra Blasieholmshamnen 8</h6>
+					<p>Stockholm • Minst 8 m<sup>2</sup></p>
+					<hr class="separator_item_hotel">
+					<h4>250 kr</h4>
+					<p>1 timme</p>
+					<a class="hotel_link" href="#0">LäS MER</a>
+				</li>
+				<li class="hotel_list__item">
+					<img src="images/hotel_images_03.png">
+					<div class="hotel_list_logo">
+						<a href="#0">
+							<img src="images/hotel_logo_03.png">
+						</a>
+					</div>
+					<h5>Grand Hotel Stockholm</h5>
+					<h6>Södra Blasieholmshamnen 8</h6>
+					<p>Stockholm • Minst 8 m<sup>2</sup></p>
+					<hr class="separator_item_hotel">
+					<h4>250 kr</h4>
+					<p>1 timme</p>
+					<a class="hotel_link" href="#0">LäS MER</a>
+				</li>
+				<li class="hotel_list__item">
+					<img src="images/hotel_images_04.png">
+					<div class="hotel_list_logo">
+						<a href="#0">
+							<img src="images/hotel_logo_04.png">
+						</a>
+					</div>
+					<h5>Grand Hotel Stockholm</h5>
+					<h6>Södra Blasieholmshamnen 8</h6>
+					<p>Stockholm • Minst 8 m<sup>2</sup></p>
+					<hr class="separator_item_hotel">
+					<h4>250 kr</h4>
+					<p>1 timme</p>
+					<a class="hotel_link" href="#0">LäS MER</a>
+				</li>
+			</ul>
+		</section>
+		<section class="slider_progress_bar">
+			<div class="slider_container">
+				<div class="container">
+		        <div id="presentation_container" class="pc_container">
+		            <div class="pc_item">
+		                <div class="desc">
+		                    <h4>LOREM IPSUM DOLOR</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                </div>
+		                <div class="desc_img">
+		                	<img src="images/slide_img.gif" alt="slide1"/>
+		                </div>
+		            </div>
+		            <div class="pc_item">
+		                <div class="desc">
+		                    <h4>LOREM IPSUM DOLOR</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                </div>
+		                <div class="desc_img">
+		                	<img src="images/slide_img.gif" alt="slide1"/>
+		                </div>
+		            </div>
+		            <div class="pc_item">
+		                <div class="desc">
+		                    <h4>LOREM IPSUM DOLOR</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                </div>
+		                <div class="desc_img">
+		                	<img src="images/slide_img.gif" alt="slide1"/>
+		                </div>
+		            </div>
+		            <div class="pc_item">
+		                <div class="desc">
+		                    <h4>LOREM IPSUM DOLOR</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                </div>
+		                <div class="desc_img">
+		                	<img src="images/slide_img.gif" alt="slide1"/>
+		                </div>
+		            </div>
+		            <div class="pc_item">
+		                <div class="desc">
+		                    <h4>LOREM IPSUM DOLOR</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		                </div>
+		                <div class="desc_img">
+		                	<img src="images/slide_img.gif" alt="slide1"/>
+		                </div>
+		            </div>
+		        </div>
+		        <ul class="list_personer"> 
+              <li class="list_personer__item">
+                  <strong>X-SMALL</strong>
+                  <p>2-4 personer</p>
+              </li>
+              <li class="list_personer__item">
+                  <strong>SMALL</strong>
+                  <p>5-8 personer</p>
+              </li>
+              <li class="list_personer__item">
+                  <strong>MEDIUM</strong>
+                  <p>9-12 personer</p>
+              </li>
+              <li class="list_personer__item">
+                  <strong>LARGE</strong>
+                  <p>13-20 personer</p>
+              </li>
+            </ul>
+		        <script type="text/javascript">
+		            presentationCycle.init();
+		        </script>
+		    </div>
+			</div>
+		</section>
+		<section class="slick_slider">
+			<h4>TESTIMONIALS</h4>
+			<section class="regular slider">
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_01.png">
+						</a>
+					</div>
+					<strong>Namn Efternamn</strong><br />
+					<span>Titel</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_02.png">
+						</a>
+					</div>
+					<strong>Namn Efternamn</strong><br />
+					<span>Titel</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_03.png">
+						</a>
+					</div>
+					<strong>Dagens Industri</strong><br />
+					<span>17/8-2015</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_03.png">
+						</a>
+					</div>
+					<strong>Namn Efternamn</strong><br />
+					<span>Titel</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_01.png">
+						</a>
+					</div>
+					<strong>Namn Efternamn</strong><br />
+					<span>Titel</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_02.png">
+						</a>
+					</div>
+					<strong>Namn Efternamn</strong><br />
+					<span>Titel</span>
+				</div>
+				<div class="slick_item">
+					<p>”Encourage your fans to add videos to their own YouTube account and let you know the link – you can add these videos to your channel as Favorites and create a playlist of customer reviews.”</p>
+					<img src="images/slick_item_line.png">
+					<div class="slick_item_author">
+						<a href="#0">
+							<img src="images/author_slick_item_03.png">
+						</a>
+					</div>
+					<strong>Dagens Industri</strong><br />
+					<span>17/8-2015</span>
+				</div>
+			</section>
+		</section>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrap">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-list__item"><a href="#0">ABOUT</a></li>
+						<li class="footer__nav-list__item"><a href="#0">FAQ</a></li>
+						<li class="footer__nav-list__item"><a href="#0">BLOG</a></li>
+						<li class="footer__nav-list__item"><a href="#0">SUPPORT</a></li>
+						<li class="footer__nav-list__item"><a href="#0">HELP FORUM</a></li>
+						<li class="footer__nav-list__item"><a href="#0">FEEDBACK</a></li>
+						<li class="footer__nav-list__item"><a href="#0">LOREM IPSUM</a></li>
+						<li class="footer__nav-list__item"><a href="#0">LOREM IPSUM</a></li>
+						<li class="footer__nav-list__item footer__nav-list__item--arrow"><a href="#0">ENGLISH</a></li>
+						<li class="footer__nav-list__item"><a href="#0">MIN BOKNNG</a></li>
+					</ul>
+					<hr class="footer__separator" size="1px" width="100%">
+					<div class="footer__bottom">
+						<div class="footer__menu">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-list__item"><a href="#0">Privacy</a></li>
+								<li class="footer__menu-list__item"><a href="#0">Terms</a></li>
+								<li class="footer__menu-list__item"><a href="#0">Safely</a></li>
+								<li class="footer__menu-list__item"><a href="#0">Help</a></li>
+							</ul>
+						</div>
+						<div class="footer__social">
+							<ul class="footer__social-list">
+								<li class="footer__social-list__item"><a href="#0"><img src="images/footer_facebook.png"></a></li>
+								<li class="footer__social-list__item"><a href="#0"><img src="images/footer_twitter.png"></a></li>
+								<li class="footer__social-list__item"><a href="#0"><img src="images/footer_in.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__logo">
+					<a href="#0">
+						<img src="images/footer_logo.png">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script type='text/javascript' src='js/jquery-ui.js'></script>
+  <script type='text/javascript' src='js/jquery.cycle.all.min.js'></script>
+  <script type='text/javascript' src='js/presentationCycle.js'></script>
+  <script type='text/javascript' src='js/slick.js'></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
